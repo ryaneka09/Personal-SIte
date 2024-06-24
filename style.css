@@ -1,0 +1,134 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: black;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin: 50px auto 24px auto;
+    font-size: 64px;
+}
+
+h2 {
+    color: black;
+    font-size: 24px;
+    text-align: left;
+}
+
+h3 {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.top-container > div > h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.text-color {
+color: gray;
+font-size: 1.5rem;
+}
+
+.text-style {
+    display: flex;
+    align-items: center;
+}
+
+.mid-container > h2 {
+    color: black;
+    line-height: 2;
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.intro {
+    width: 50%;
+    margin: auto;
+}
+
+.information {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+}
+
+.header {
+    width: 50%;
+    margin: auto;
+}
+
+.top-container {
+    background-color: black;
+    position: relative;
+    padding: 50px 50px 50px 50px;
+    text-align: left;
+}
+
+.mid-container {
+    margin: 50px 50px 50px 100px;
+}
+
+.profile-picture {
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.project-showcase {
+    width: 50%;
+    margin: 48px auto 50px auto;
+
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 90%;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.contact {
+    width: 50%;
+    margin: 40px auto 32px auto;
+}
+
+.contact-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    margin: 32px auto 100px auto;
+}
+
+hr {
+    width: 80%;
+}
+
+.project > div > img {
+    border: 1px solid black;
+}
+
+.fuck-society > p {
+    margin-top: 8px;
+}
+
+.hire > p {
+    margin-top: 8px;
+}
+
+
+
